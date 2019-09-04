@@ -14,6 +14,8 @@ La première et la plus importante est celle du micro-contrôleur, mais vous aur
 L’accès à cette liaison série se fera via un fichier spécial dont le nom devrait ressembler à "/dev/ttyUSB0", le "USB0"
 Attention : La machine virtuelle que vous allez utiliser à une liaison du port /dev/ttyUSB0 de votre machine hôte vers le port /dev/ttyS3 de la distribution Linux virtuelle
 
+## Exercice 2. Documentations techniques
+
 ### Question 1. Une chaîne de cross-compilation pour micro-contrôleurs ARM est déjà installée sur la VM fournie. Quelle est cette chaîne de cross-compilation ? Comment l’utilise-t-on ? Utilisez l’option -v de gcc (celui de la chaîne de cross-compilation) pour identifier la version et vérifier qu’il s’exécute correctement.
 
 Pour permettre l’étude de l’exemple suivant et permettre le développement "linux embarqué" par la suite, nous avons aussi installé deux autres chaines de compilation pour ARM : gcc-arm-linux-gnueabi et gcc-arm-linux-gnueabih.
